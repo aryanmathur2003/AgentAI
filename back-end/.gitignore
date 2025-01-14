@@ -1,0 +1,68 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# macOS system files
+.DS_Store
+
+# Logs and runtime data
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+*.env
+
+# Byte-compiled files and caches
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Dependencies
+*.lock
+poetry.lock
+pip-log.txt
+
+# Security
+secrets.json
